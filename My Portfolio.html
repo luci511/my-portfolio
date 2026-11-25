@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanay Kunte | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .nav-links a,
+        .b1,
+        .btn,
+        .skill-card,
+        .project-card,
+        .social-icon {
+            transition: transform 0.2s ease, color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .projects-grid {
+            gap: 24px;
+        }
+
+        .nav-links a:hover {
+            color: #2563eb;
+        }
+
+        .b1:hover,
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(37, 99, 235, 0.25);
+        }
+
+        .skill-card:hover,
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12);
+        }
+
+        .social-icon:hover {
+            transform: translateY(-3px);
+            color: #2563eb;
+        }
+    </style>
+</head>
+<body>
+    <header id="home" class="header">
+        <div class="logo-container">
+            <a href="#home">
+                <img src="TK monogram@1x.png" alt="logo"/>
+            </a>
+        </div>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="villain">
+        <div class="villain-content">
+            <h1>Welcome to My Portfolio<br/><span class="highlight">Tanay Kunte</span></h1>
+            <p>Hi, I'm Tanay Kunte, a first-year B.tech CSE (Ai) student passionate about technology, Ai, and building practical solutions.</p>
+            <a href="#contact" class="b1">Contact Me</a>
+        </div>
+        <div class="villain-image">
+            <img src="tanayproffestional.jpg" alt="Profile Picture">
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="section-heading">
+                <h2>About Me</h2>
+                <span class="heading-line"></span>
+            </div>
+            <p>I'm a first-year Computer Science Engineering student specializing in Artificial Intelligence and Data Science, with a growing passion for technology and problem-solving. My journey into tech is driven by curiosity and a desire to understand how things work, experiment with new ideas, and turn them into practical solutions. I enjoy exploring different areas of technology, learning through hands-on experience, and building projects that solve real-world problems. I believe that every project, whether big or small, is an opportunity to learn something new, improve my skills, and think beyond the ordinary.</p>
+            <p>Currently, I'm focusing on strengthening my foundations in Python, Web Development, and Generative AI while exploring the possibilities of AI and Machine Learning. My long-term goal is to become an AI Developer, build meaningful technology, and continuously grow as a developer and problem-solver.</p>
+        </div>
+        <div class="about-image">
+            <img src="508A2455.JPG" alt="My Image">
+        </div>
+    </section>
+    <section id="skills" class="skills-section">
+        <div class="section-heading">
+            <h2>Skills</h2>
+            <span class="heading-line"></span>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo">
+                </div>
+                <span>HTML</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo">
+                </div>
+                <span>CSS</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python Logo">
+                </div>
+                <span>Python</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="C Programming Logo">
+                </div>
+                <span>C Programming</span>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                    </svg>                
+                </div>
+                <span>Claude Skills</span>
+            </div>
+        </div>
+    </section>
+    <section id="project" class="projects-section">
+        <div class="section-heading">
+            <h2>Projects</h2>
+            <span class="heading-line"></span>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="inka-logo.png" alt="Inka Parts Hub Preview">
+                </div>
+                <div class="project-info">
+                    <h3>Inka Parts Hub</h3>
+                    <p>A web application for managing and showcasing automotive parts.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="https://inka-parts-hub.lovable.app/" target="_blank" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image offerai-photo">
+                    <img src="WhatsApp Image 2026-11-25 at 10.49.10 AM.jpeg" alt="Dark blue OfferShield AI website homepage warning students about predatory and fake job offers, with the headline Defend Your Career From Predatory & Fake Job Offers and supporting text. A cyan Paste & Analyze Offer button invites visitors to inspect offer letters or recruiter emails for hidden risks, while the professional layout conveys urgency and reassurance.">
+                </div>
+                <div class="project-info">
+                    <h3>OfferAI</h3>
+                    <p>Analyze internship offers and understand opportunities more clearly with this smarter tool for students.</p>
+                    <div class="project-tags">
+                        <span>AI</span>
+                        <span>Internship Analysis</span>
+                        <span>Student Tool</span>
+                    </div>
+                    <a href="https://offershield-ai-mu.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="section-heading">
+            <h2>Contact</h2>
+            <span class="heading-line"></span>
+        </div>
+        <div class="contact-container">
+            <div class="contact-card">
+                <h3>Get In Touch</h3>
+                <p>Feel free to reach out for collaborations, project inquiries, or just a friendly chat about cricket and code!</p>
+                <div class="contact-info-item">
+                    <span class="contact-icon">👤</span>
+                    <span class="contact-value">Tanay Kunte</span>
+                </div>
+                <div class="contact-info-item">
+                    <span class="contact-icon">✉️</span>
+                    <span class="contact-value">tanaykunte@gmail.com</span>
+                </div>
+                <div class="contact-info-item">
+                    <span class="contact-icon">📍</span>
+                    <span class="contact-value">Alard University, Pune, Maharashtra, India</span>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-row">
+                    <input type="text" placeholder="Full Name" class="form-input" required>
+                    <input type="email" placeholder="Email Address" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Subject" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Message" class="form-input message-input" required>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer-text">&copy; 2026 Tanay Kunte. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/tanay-kunte-690068436/" target="_blank" class="social-icon" aria-label="LinkedIn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+            </a>
+            <a href="https://github.com/luci511" target="_blank" class="social-icon" aria-label="GitHub">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+            </a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1" target="_blank" class="social-icon" aria-label="YouTube">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                </svg>
+            </a>
+            <a href="https://www.instagram.com/kh_27kuntanay_?bqrl=MXZ3aG5waGEya2FqZQ==" target="_blank" class="social-icon" aria-label="Instagram">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1e293b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
